@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+.cabeçalho{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+}
+.cabeçalho h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 0px 50px;
+text-transform: uppercase;
+}
+.cabeçalho ul{
+    list-style-type: none;
+    display: flex;
+}
+.cabeçalho a {
+    text-decoration: none;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10px;
+    color: black;
+    
+
+    
+}
+.cabeçalho a:hover{
+    color: rgb(194, 240, 240);
+    border-bottom: solid 1px  rgb(194, 240, 240);
+}
